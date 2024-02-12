@@ -1,0 +1,50 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"noImplicitAny": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule":true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"module": "ESNext",
+		"target": "es6",
+		"strict": false,
+		"allowJs": true,
+		"baseUrl": "./src",
+		"moduleResolution": "node",
+		"jsx": "preserve",
+		"skipLibCheck": true,
+		"paths": {
+			"~/*":["./*"],
+			"@classes/*":["classes/*"]
+		},
+		"lib": [
+			"esnext",
+			"es6",
+			"es2015",
+			"es2016",
+			"dom",
+			"es2020",
+		],
+		"plugins": [],
+		"typeRoots": [
+			"./node_modules/@types"
+		],
+		"types": [
+
+		]
+	},
+	"typedocOptions": {},
+	"include": [
+		"src"
+	],
+	"ts-node": {
+		"files": true
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

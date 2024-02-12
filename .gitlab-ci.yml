@@ -1,0 +1,4 @@
+include:
+  - project: 'servers/gitlab/ci-pipelines-templates'
+    ref: main
+    file: '/templates/.npm-gitlab-ci-template.yml'

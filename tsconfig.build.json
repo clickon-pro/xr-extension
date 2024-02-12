@@ -1,0 +1,10 @@
+{
+	"extends": "./tsconfig.json",
+	"exclude": ["src/dev"],
+	"compilerOptions": {
+		"rootDir": "./src",
+		"sourceMap": false,
+		"declaration": true
+	},
+	"include": ["src"]
+}

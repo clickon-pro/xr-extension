@@ -1,0 +1,1 @@
+export type TRecordMode = 'right' | 'left' | 'both';
