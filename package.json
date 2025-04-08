@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"prebuild": "rm -rf dist",
-		"build": "package-build --project tsconfig.build.json",
+		"build": "package-build --project tsconfig.build.json && cp README.md dist/",
 		"watch": "tsc -p tsconfig.build.json -w",
 		"semantic-release": "semantic-release"
 	},
